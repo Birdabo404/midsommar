@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid red;
+    outline: 2px solid red;
 }
 
 .container {
@@ -58,19 +58,21 @@ nav ul li a {
 input {
     position: absolute;
     display: block;
-    width: 450px;
+    width: 430px;
     height: 40px;
     border: 1px solid grey;
     border-radius: 5px;
     font-size: 15px;
     background-color: black;
     outline: none;
-    margin: 0 auto;
+
 }
 
 input, select, textarea{
     color: rgb(230, 230, 230);
     padding: 10px;
+    margin-left: 30%;
+    margin-top: -10%;
 }
 
 textarea:focus, input:focus {
