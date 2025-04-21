@@ -55,6 +55,10 @@ nav ul li a {
     padding: 100px;
 }
 
+.centerLogo:hover {
+    cursor: pointer;
+}
+
 input {
     position: absolute;
     display: block;
@@ -82,3 +86,16 @@ textarea:focus, input:focus {
 input::placeholder{
     color: #f00;
   }
+
+#item-Button {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+#item-Button:hover {
+    cursor: pointer;
+}
