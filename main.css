@@ -89,13 +89,17 @@ input::placeholder{
 
 #item-Button {
     position: relative;
-    width: 40px;
+    width: 50px;
     height: 40px;
     cursor: pointer;
     background-color: grey;
     border-radius: 5px;
+    border-style: none;
 }
 
 #item-Button:hover {
     cursor: pointer;
+    background-color: rgb(73, 73, 73);
 }
+
+
